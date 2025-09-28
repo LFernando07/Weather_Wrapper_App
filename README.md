@@ -2,7 +2,7 @@
 
 Aplicación web desarrollada en (React + TypeScript) + (NodeJs + Express) que permite consultar el clima de cualquier país utilizando la API de Visual Crossing. El proyecto utiliza Redux Toolkit para la gestión de estado y un diseño moderno con efectos visuales.
 
-![demo](.github/README_ASSETS/weather-service.png)
+![demo](.github/readme_assets/weather-service.png)
 
 ## 🌐 Live Demo
 
@@ -70,7 +70,7 @@ Ejecute el siguiente comando para ejecutar el servidor de desarrollo localmente:
 El backend se ejecutará normalmente en [http://localhost:3000](http://localhost:3000).
 
 ```bash
-npm run start
+npm/pnpm run start
 ```
 
 **Step 4:**
@@ -89,7 +89,7 @@ Ejecute el siguiente comando para ejecutar el frontend en el navegador:
 El frontend se ejecutará en [http://localhost:5173](http://localhost:5173).
 
 ```bash
-npm run dev
+npm/pnpm run dev
 ```
 
 ## 🔒 Environment Variables
@@ -101,10 +101,6 @@ Las variables de entorno se pueden usar para la configuración. Deben configurar
 Cree un archivo `.env` en el directorio raíz del proyecto y agregue las siguientes variables de entorno:
 
 ```env
-VITE_EMAILJS_SERVICE_ID=<VITE_EMAILJS_SERVICE_ID>
-VITE_EMAILJS_TEMPLATE_ID=<VITE_EMAILJS_TEMPLATE_ID>
-VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN>
-
 REDIS_USERNAME=<REDIS_USERNAME>
 REDIS_HOST=<REDIS_HOST_DATABASE>
 REDIS_PORT=<REDIS_PORT>
