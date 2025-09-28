@@ -7,7 +7,7 @@ Aplicación web desarrollada en (React + TypeScript) + (NodeJs + Express) que pe
 ## 🌐 Live Demo
 
 Explora la demostración en vivo del proyecto:
-[Weather_Wrapper_App](https://weather_wrapper_app.vercel.app/)
+[Weather_Wrapper_App](https://weather-wrapper-app.vercel.app/)
 
 ## Características
 
@@ -166,16 +166,17 @@ Puede crear una compilación de producción optimizada con el siguiente comando:
 npm run build
 ```
 
-### Despliegue Separado De Backend/Frontend
+### Despliegue Separado De Backend — Frontend
 
 #### Backend
 
 El servicio de la Web API se encuentra hospedado en Render: link:
-— Ver [weather api](https://weather-backend-5m1c.onrender.com/)
+— Ver [weather_wrapper_api](https://weather-backend-5m1c.onrender.com/)
 
 #### Frontend
 
 La App de React para consumir la API se encuentra hospedada en Vercel, link:
+— Ver [Weather_Wrapper_App](https://weather-wrapper-app.vercel.app/)
 
 ## 📋 Licencia
 
