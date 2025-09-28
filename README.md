@@ -156,17 +156,28 @@ WEATHER_API_KEY=<VISUAL_CROSSING_API_KEY>
 
 ```
 
-## 🚀 Deployment
+## 🚀 Despliegue
 
-#### Deploy to production (manual)
+### Despliegue en producción (manual)
 
-You can create an optimized production build with the following command:
+Puede crear una compilación de producción optimizada con el siguiente comando:
 
 ```bash
 npm run build
 ```
 
-## 📋 License
+### Despliegue Separado De Backend/Frontend
+
+#### Backend
+
+El servicio de la Web API se encuentra hospedado en Render: link:
+— Ver [weather api](https://weather-backend-5m1c.onrender.com/)
+
+#### Frontend
+
+La App de React para consumir la API se encuentra hospedada en Vercel, link:
+
+## 📋 Licencia
 
 **Weather_Wrapper_App** es software de código abierto
 — Ver [licensed as MIT](https://opensource.org/license/mit/) y es de uso gratuito
