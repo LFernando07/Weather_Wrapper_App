@@ -1,14 +1,10 @@
 import type { JSX } from 'react';
-// import Weather_Result from '../mocks/Weather_Result.json';
 import '../styles/WeatherDash.css';
 import { CloudIcon, ColdIcon, FeelsLikeIcon, HotIcon, HumidityIcon, LocationIcon, VisibilityIcon, WarmIcon, WindIcon } from './Icons';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../store';
 
 export function WeatherDash() {
-
-  // Simulating a fetch request to get weather data
-  // const data = Weather_Result ✅✅✅Test mock
 
   // Data obtenida del fetch hacia la API del backend
   const { data, status, error } = useSelector((state: RootState) => state.weather)
