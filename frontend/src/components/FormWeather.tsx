@@ -30,7 +30,7 @@ export function FormWeather() {
             type="text"
             name="country"
             id="country"
-            placeholder="Buscar país..."
+            placeholder="Buscar un lugar..."
             value={value}
             onChange={e => setValue(e.target.value)}
             autoComplete="off"

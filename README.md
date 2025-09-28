@@ -9,7 +9,7 @@ Aplicación web desarrollada en (React + TypeScript) + (NodeJs + Express) que pe
 Explora la demostración en vivo del proyecto:
 [Weather_Wrapper_App](https://weather-wrapper-app.vercel.app/)
 
-## Características
+## ✍️ Características
 
 - Búsqueda de clima por país.
 - Visualización de temperatura, sensación térmica, viento, humedad, visibilidad y condición.
@@ -19,7 +19,7 @@ Explora la demostración en vivo del proyecto:
 - Redis para el cache de las busquedas.
 - **Backend propio** para proteger la clave de la API y servir los datos al frontend.
 
-## Tecnologías utilizadas
+## 👨‍💻 Tecnologías utilizadas
 
 - React JS
 - Vite
@@ -54,7 +54,32 @@ Weather_Wrapper_Service/
 │   └── package.json
 ├── frontend/
 │   ├── public/
+│   │   ├── vite.svg
 │   ├── src/
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── FormWeather.tsx
+│   │   │   ├── Icons.tsx
+│   │   │   └── WeatherDash.tsx
+│   │   ├── mocks/
+│   │   │   └── Weather_Result.json
+│   │   ├── service/
+│   │   │   └── weatherAPI.ts
+│   │   ├── store/
+│   │   │   ├── weather/
+│   │   │   │   ├── WeatherSlice.ts
+│   │   │   └── index.ts
+│   │   ├── styles
+│   │   │   ├── FormWeather.css
+│   │   │   └── WeatherDash.css
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   ├── types.d.ts
+│   │   └── vite-env.d.ts
+│   ├── .env
 │   ├── .gitignore
 │   ├── eslint.config.js
 │   ├── index.html
@@ -90,7 +115,7 @@ Note :bangbang: La aplicación utiliza una API de terceros perteneciente a Visua
 Download or clone this repo by using the link below:
 
 ```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+git clone https://github.com/LFernando07/Weather_Wrapper_App.git
 ```
 
 **Step 2:**
