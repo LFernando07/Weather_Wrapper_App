@@ -13,7 +13,6 @@ export function WeatherDash() {
   // Data obtenida del fetch hacia la API del backend
   const { data, status, error } = useSelector((state: RootState) => state.weather)
 
-  console.log(data)
 
   // Convert Farenheit to Centigradous
   const getTemperature = (temp: number): number => {

@@ -30,6 +30,7 @@ body::before {
   padding: 0;
   backdrop-filter: blur(2px);
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .message{
@@ -55,7 +56,7 @@ body::before {
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255,255,255,0.25);
   color: #222;
-  font-size: 1.1em;
+  font-size: 1.0em;
   transition: transform 0.3s, box-shadow 0.3s;
   animation: fadeInUp 0.8s cubic-bezier(.39,.575,.565,1) both;
 }
@@ -88,7 +89,7 @@ body::before {
 .weather-item:nth-child(2) {
   grid-row: 2 / 4;
   grid-column: 1 / 4;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 500;
   color: #0077b6;
   background: rgba(255,255,255,0.28);
@@ -102,7 +103,7 @@ body::before {
 .weather-item:nth-child(4) {
   grid-row: 2 / 4;
   grid-column: 10 / 13;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 500;
   color: #0077b6;
   background: rgba(255,255,255,0.28);
