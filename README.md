@@ -31,7 +31,7 @@ Explora la demostración en vivo del proyecto:
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,redux,css,express,vercel)](https://skillicons.dev)
 
-<details><summary><b>Estructura del proyecto</b></summary>
+<details><summary><b>Estructura del proyecto</b></summary></details>
 
 ## 🧰 Get Started
 
