@@ -31,7 +31,45 @@ Explora la demostración en vivo del proyecto:
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,redux,css,express,vercel)](https://skillicons.dev)
 
-<details><summary><b>Estructura del proyecto</b></summary></details>
+<details><summary><b>Estructura del proyecto</b></summary>
+
+```bash
+Weather_Wrapper_Service/
+├── .github/
+│   └── assets/
+│       └── weather-service.png
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── redisClient.js
+│   │   └── features/
+│   │       └── weather/
+│   │           ├── weather.cache.js
+│   │           ├── weather.controller.js
+│   │           ├── weather.route.js
+│   │           └── weather.service.js
+│   └── index.js
+│   ├── .env
+│   ├── package-lock.json
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── .gitignore
+├── README.md
+└── package-lock.json
+```
+
+</details>
 
 ## 🧰 Get Started
 
@@ -131,4 +169,4 @@ npm run build
 ## 📋 License
 
 **Weather_Wrapper_App** es software de código abierto
-[licensed as MIT](https://opensource.org/license/mit/) y es de uso gratuito — Ver
+— Ver [licensed as MIT](https://opensource.org/license/mit/) y es de uso gratuito
