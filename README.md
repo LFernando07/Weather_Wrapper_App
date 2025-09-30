@@ -58,7 +58,7 @@ Weather_Wrapper_Service/
 │   ├── src/
 │   │   ├── assets/
 │   │   │   └── react.svg
-│   │   ├── components
+│   │   ├── components/
 │   │   │   ├── FormWeather.tsx
 │   │   │   ├── Icons.tsx
 │   │   │   └── WeatherDash.tsx
